@@ -1,0 +1,13 @@
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.encabezado {
+    text-transform: uppercase;
+}
+
+.encabezado h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}

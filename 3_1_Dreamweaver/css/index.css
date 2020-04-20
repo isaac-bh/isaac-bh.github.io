@@ -1,0 +1,18 @@
+.contenedor-principal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 97vh;
+    margin-top: 3vh;
+    background: url("../images/Glasses.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(201, 201, 201);
+}
+
+.contenedor-principal-lateral {
+    width: 45%;
+    padding: 5rem 2rem 2rem 5rem;
+}

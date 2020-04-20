@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>Unidad 3</title>
+    <style>
+        :root {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        body {
+            background-color: rgb(28, 28, 49);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            width: 27%;
+        }
+
+        h4 {
+            padding-top: 7.5rem;
+            margin: auto;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+
+        .actividad {
+            text-align: center;
+            border: 2px solid white;
+            height: 17.5rem;
+            margin-top: 5rem;
+            transition: all 0.5s;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        #final-link {
+            width: 90% !important;
+        }
+
+        .actividad:hover {
+            box-shadow: 0 0 20px 0px white;
+        }
+
+        #uno {
+            background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)), url('minis/31.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        #dos {
+            background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)), url('minis/32.png');
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <a href="3_1_Dreamweaver/index.html">
+        <div id="uno" class="actividad">
+            <h4>3.1. Dreamweaver</h4>
+        </div>
+    </a>
+
+    <a href="3_2_Frames/html/index.html">
+        <div id="dos" class="actividad">
+            <h4>3.2. Diseño con frames</h4>
+        </div>
+    </a>
+
+    <a href="">
+        <div id="tres" class="actividad">
+            <h4>3.3. Inclusión de multimedia</h4>
+        </div>
+    </a>
+
+    <a href="" id="final-link">
+        <div id="final" class="actividad">
+            <h4>Producto final.</h4>
+        </div>
+    </a>
+</body>
+</html>

@@ -1,0 +1,80 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: green;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.top {
+    position: fixed;
+    width: 99.8%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    background: url(../img/top.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    position: fixed;
+    width: 10%;
+    height: 79.5%;
+    border: 1px solid black;
+    top: 10.1%;
+    right: 0;
+    background: url(../img/right.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom {
+    position: fixed;
+    width: 99.8%;
+    height: 10%;
+    bottom: 0;
+    left: 0;    
+    border: 1px solid black;
+    background: url(../img/bottom.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.left {
+    position: fixed;
+    width: 10%;
+    height: 79.5%;
+    border: 1px solid black;
+    top: 10.1%;
+    left: 0;
+    background: url(../img/left.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.central {
+    position: absolute;
+    top: 10.1%;
+    left: 10%;
+    width: 79.9%;
+    height: 79.5%;
+    border: 1px solid black;
+    background: url(../img/central.png);
+    background-position: center;
+    background-size: cover;
+}

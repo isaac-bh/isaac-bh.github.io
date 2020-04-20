@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reproductor.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <title>Isaac</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="lista-navbar">
+            <li><a href="index.html" class="link-navbar">Página principal</a></li>
+            <li><a href="reproductor.html" class="link-navbar">Reproductor</a></li>
+            <li><a href="recursos.html" class="link-navbar">Recursos</a></li>
+            <li><a href="problemas.html" class="link-navbar">Problemas con la plataforma</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor-reproductor">
+        <div class="lista-canciones">
+            <div class="cancion" onclick="reproducir(0);">
+                <img src="images/About a Voyage.png" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">About A Voyage</p>
+                    <p class="artista-cancion">Sayuri</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(1);">
+                <img src="images/Blood Circulator.png" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Blood Circulator</p>
+                    <p class="artista-cancion">ASIAN KUNG-FU GENERATION</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(2);">
+                <img src="images/Chlorine.png" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Chlorine</p>
+                    <p class="artista-cancion">Twenty One Pilots</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(3);">
+                <img src="images/Freeze Me.png" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Freeze Me</p>
+                    <p class="artista-cancion">Death From Above 1979</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(4);">
+                <img src="images/Green River.png" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Green River</p>
+                    <p class="artista-cancion">Creedence Clearwater Revival</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(5);">
+                <img src="images/We Are The Champions.png" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">We Are The Champions</p>
+                    <p class="artista-cancion">Queen</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-reproductor">
+            <img src="" alt="" id="caratula-reproductor">
+            <div>
+                <p id="titulo-reproductor"></p>
+                <p id="artista-reproductor"></p>
+            </div>
+            <img src="images/prev.png" class="controlador" id="anterior">
+            <img src="images/play.png" class="controlador" id="reproducir">
+            <img src="images/next.png" class="controlador" id="siguiente">
+        </div>
+    </div>
+
+    <script src="js/reproductor.js"></script>
+</body>
+</html>
