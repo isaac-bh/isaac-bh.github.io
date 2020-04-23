@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border: 3px solid rgb(88, 94, 177);
     height: 30vh;
 }
 
@@ -34,6 +35,7 @@ body {
 .fila2 {
     width: 100%;
     height: 30vh;
+    border: 3px solid rgb(88, 94, 177);
     text-align: center;
 }
 
@@ -46,6 +48,7 @@ body {
     width: 100%;
     height: 30vh;
     display: flex;
+    border: 3px solid rgb(88, 94, 177);
     justify-content: space-between;
 }
 
