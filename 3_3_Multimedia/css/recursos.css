@@ -1,0 +1,45 @@
+.contenedor-principal {
+    width: 100vw;
+    height: 97vh;
+    margin-top: 3vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedor-recursos {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recurso {
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 1rem;
+    border: 2px solid rgb(73, 0, 73);
+}
+
+.recurso img {
+    width: 100%;
+}
+
+.info-recurso {
+    width: 100%;
+    text-align: center;
+}
+
+.info-recurso p {
+    margin: 0;
+}
+
+.info-recurso a {
+    text-decoration: none;
+}
