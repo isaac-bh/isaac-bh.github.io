@@ -1,13 +1,175 @@
 :root {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 12px;
 }
 
-.encabezado {
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-weight: lighter;
     text-transform: uppercase;
+    font-family: 'Chelsea Market', cursive;
 }
 
-.encabezado h1, h2, h3 {
-    margin: 0 auto;
+header {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/WallpaperPoli.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+    margin: 0;
+    padding-top: 22.5vh;
+    transition: background 0.5s;
+}
+
+header:hover {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/WallpaperPoli.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header:hover > .presentacion {
+    opacity: 0;
+}
+
+.presentacion {
+    opacity: 1;
     text-align: center;
+    transition: opacity 0.5s;
+}
+
+.separador {
+    background: linear-gradient(90deg, red, orange, yellow, lime, cyan, blue, indigo, violet);
+    background-size: 10000% 10000%;
+    animation: bg-gradient 15s infinite;
+    width: 100vw;
+    height: 0.1vh;
+}
+
+@keyframes bg-gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+
+#alumno {
+    width: 55vw;
+    margin: 0;
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.xd {
+    margin: auto;
+    width: 70vw;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spam {
     font-style: italic;
+}
+
+.subexperiencias {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: initial;
+}
+
+.xp {
+    width: 30%;
+    transition: width 0.5s;
+    margin: 1rem;
+}
+
+.xp:hover {
+    width: 100%;
+}
+
+h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.xp p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.25rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.flash {
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos, .reproductor {
+    width: 720px;
+    height: 480px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    display: table;
+}
+
+.videos p, .reproductor p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.videos {
+    background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("../../minis/33.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.reproductor {
+    background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("../../minis/pf_reproductor.png");
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
 }

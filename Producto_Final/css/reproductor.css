@@ -1,0 +1,112 @@
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+.controles {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(1, 33, 41, 0.75);
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctrl {
+    margin-right: 5rem;
+}
+
+.ctrl img {
+    margin-top: 2.25rem;
+    width: 40px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.curso {
+    width: 40vw;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#caratula-reproductor {
+    filter: grayscale(1);
+    margin-top: 1rem;
+    width: 75px;
+    cursor: initial;
+}
+
+.textCurso {
+    margin: 3rem 0 0 2rem;
+}
+
+/* ------------------------------------------------------------ */
+
+.canciones {
+    padding: 3rem 5rem;
+}
+
+.cancion {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(139, 192, 188);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.cancion:hover {
+    background-color: rgba(139, 192, 188, 0.75);
+}
+
+.caratula {
+    width: 50px;
+    margin-right: 2.5rem;
+}
+
+.infor {
+    width: 90vw;
+    margin-top: 0.75rem;
+}
+
+.titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.artista {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.duracion {
+    color: rgb(139, 192, 188);
+    margin-top: 1.5rem;
+}
+
+#back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

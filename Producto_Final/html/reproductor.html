@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>Reproductor de música</title>
+    <link rel="stylesheet" href="../css/reproductor.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html" id="back">Regresar</a>
+
+    <div class="canciones">
+        <div class="cancion" onclick="reproducir(1);">
+            <img src="../music/caratulas/LOC.jpg" class="caratula">
+            <div class="infor">
+                <p class="titulo">Level of Concern</p>
+                <p class="artista">Twenty One Pilots</p>
+            </div>
+            <div class="duracion">
+                3:40
+            </div>
+        </div>
+
+        <div class="cancion" onclick="reproducir(2);">
+            <img src="../music/caratulas/KOTJ.jpg" class="caratula">
+            <div class="infor">
+                <p class="titulo">King Of The Jungle</p>
+                <p class="artista">Shanguy</p>
+            </div>
+            <div class="duracion">
+                2:37
+            </div>
+        </div>
+
+        <div class="cancion" onclick="reproducir(3);">
+            <img src="../music/caratulas/DGBMH.jpg" class="caratula">
+            <div class="infor">
+                <p class="titulo">Don't Go Breaking My Heart</p>
+                <p class="artista">Elton John</p>
+            </div>
+            <div class="duracion">
+                4:25
+            </div>
+        </div>
+
+        <div class="cancion" onclick="reproducir(4);">
+            <img src="../music/caratulas/LR.jpg" class="caratula">
+            <div class="infor">
+                <p class="titulo">Last Resort</p>
+                <p class="artista">Papa Roach</p>
+            </div>
+            <div class="duracion">
+                3:20
+            </div>
+        </div>
+
+        <div class="cancion" onclick="reproducir(5);">
+            <img src="../music/caratulas/NF.jpg" class="caratula">
+            <div class="infor">
+                <p class="titulo">Night Fever</p>
+                <p class="artista">Bee Gees</p>
+            </div>
+            <div class="duracion">
+                3:37
+            </div>
+        </div>
+
+        <div class="cancion" onclick="reproducir(6);">
+            <img src="../music/caratulas/SV.jpg" class="caratula">
+            <div class="infor">
+                <p class="titulo">Silicon Valley</p>
+                <p class="artista">Abhi The Nomad</p>
+            </div>
+            <div class="duracion">
+                3:22
+            </div>
+        </div>
+    </div>
+
+    <div class="controles">
+        <div class="curso">
+            <img src="../music/caratulas/unknown.jpg" alt="" id="caratula-reproductor">
+            <div class="textCurso">
+                <p class="titulo" id="titulo-reproductor">King Of The Jungle</p>
+                <p class="artista" id="artista-reproductor">Shanguy</p>
+            </div>
+        </div>
+        <div class="ctrl">
+            <img src="../img/prev.png" alt="" id="anterior">
+            <img src="../img/play.png" alt="" id="reproducir">
+            <img src="../img/next.png" alt="" id="siguiente">
+        </div>
+    </div>
+    <script src="../js/reproductor.js"></script>
+</body>
+</html>
